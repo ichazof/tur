@@ -8,6 +8,17 @@
   </div>
 </template>
 
+<script>
+
+// import WOW from 'wowjs/dist/wow.js'
+// const ErChat = require('er-chat/dist/er-chat.esm').default
+export default {
+  // mounted () {
+
+  // }
+}
+</script>
+
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
