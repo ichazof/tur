@@ -1,5 +1,12 @@
 <template>
   <div id="app">
+    <div class="container header">
+      <div class="header__logo"><img src="/static/img/logo.jpg"/></div>
+      <div class="header__phone"></div>
+      <div class="header__time"></div>
+      <div class="header__mail"></div>
+      <div class="header__social"></div>
+    </div>
     <div id="nav">
       <router-link to="/">На главную</router-link>
     </div>
@@ -35,5 +42,8 @@ $image-path: '~@/../mdb/mdbvue/img';
       color: #42b983;
     }
   }
+}
+.header {
+  display: grid;
 }
 </style>

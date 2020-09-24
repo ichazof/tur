@@ -10,7 +10,13 @@ import './plugins/axios'
 import App from './App.vue'
 import router from './router'
 import * as mdbvue from 'mdbvue'
+import VueLazyload from 'vue-lazyload'
 
+Vue.use(VueLazyload, {
+  preLoad: 1.3,
+  loading: 'giphy.gif',
+  attempt: 1
+})
 Vue.config.productionTip = false
 for (const component in mdbvue) {
   Vue.component(component, mdbvue[component])
