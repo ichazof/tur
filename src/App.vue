@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="container header">
+    <!-- <div class="container header">
       <div class="header__logo">
         <router-link to="/"><img src="./static/logo.jpg" /></router-link>
       </div>
@@ -36,17 +36,17 @@
     </div>
     <div id="nav">
       <router-link to="/">На главную</router-link>
-    </div>
+    </div> -->
     <router-view />
-    <Footer></Footer>
+    <!-- <Footer></Footer> -->
   </div>
 </template>
 
 <script>
-import Footer from '@/components/Footer'
+// import Footer from '@/components/Footer'
 export default {
   components: {
-    Footer
+    // Footer
   }
 }
 </script>

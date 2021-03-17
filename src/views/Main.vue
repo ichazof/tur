@@ -2,7 +2,7 @@
   <div class="main container">
     <!-- <img alt="Vue logo" src="../assets/logo.png" :class="['animated', {'animate__bounceIn': flag }]" @click="flag = !flag"> -->
     <!-- <img alt="Vue logo" src="../assets/logo.png" class="wow animate__bounceIn" > -->
-    <h1 class="d-flex justify-content-start">Горящие туры</h1>
+    <!-- <h1 class="d-flex justify-content-start">Горящие туры</h1> -->
     <div class="mt-4 mb-4">
       <div :class="['animated main__cards d-flex justify-content-center', {'animate__zoomOut': isLoading }]" v-show="!isLoading">
         <div class="spinner-border" role="status">
